@@ -1,0 +1,74 @@
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1671.5">
+  <style type="text/css">
+  </style>
+</head>
+<body>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<head>
+  <title>Fact or Fake?</title>
+  <link rel="icon" href="{{ url_for('static', filename='download(1).png') }}">
+  
+</head>
+<style>div {
+  
+  margin-bottom: 1px;
+  
+  
+}</style>
+<nav class="navbar navbar-dark bg-dark" > 
+  <span class="navbar-brand mb-0 h1 p-2" style="font-size: 60px" >Fact or Fake?</span>
+</nav>
+<body >
+<div class='m-4 p-4'>
+  <div class="jumbotron">
+    <h1 class="display-4">Hello!</h1>
+    <p class="lead">Want to know whether what you are reading is fact or fake?</p>
+    <hr class="my-4">
+    <p>Just enter what you are reading and let me do the work for you!</p>
+    <form action="/process" method="get">
+      <div class="input-group"></div>
+
+        <textarea name="textstr"  class="form-control"></textarea>
+      </div>
+      <div style ="text-align: center">
+      <button class="btn btn-primary btn-lg" >Process</button>
+      </div>
+      </form>
+  </div>
+
+</div>
+
+      <footer class="footer mt-auto p-3 bg-dark">
+          <div  style ="text-align: center">
+              <div class="row">
+                <div class="col">
+                    <span class="text-white">Built by Uma Krithika.</span>
+                </div>
+                <div class="col">
+                    <a href="https://linkedin.com/in/uma-krithika" class="p-1 badge badge-light">LinkedIn</a>
+                </div>
+                <div class="col">
+                    <a href="https://datatoinsights.blog/" class="p-1 badge badge-light">Blog</a>
+                </div>
+              </div>
+            </div>
+      </footer>
+
+</body>
+
+</html>
