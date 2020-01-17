@@ -66,6 +66,7 @@ def make_prediction(text):
     text_vector = text_vector.todense()
     prediction = model.predict(text_vector) 
     probability = model.predict_proba(text_vector)
+    
     if prediction[0] == 0:
         prob = np.round(probability[0][0]* 100,2)
         part_1 = "Hmmm... I'm "
