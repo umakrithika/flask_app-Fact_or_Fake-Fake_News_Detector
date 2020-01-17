@@ -18,7 +18,7 @@ def process_text():
     print(x_input,output)
     return render_template('layout.html', x_input=x_input,
                                  prediction=output)
-    # print (x_input)
+
 if __name__ == "__main__":
 
     app.run(debug=True)
